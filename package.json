@@ -1,0 +1,22 @@
+{
+  "name": "proyectorm",
+  "version": "1.0.0",
+  "description": "proyecto rnm",
+  "main": "code_JS/index.js",
+  "scripts": {
+    "callback": "node code_JS/callback/index.js",
+    "callback:challenge": "node code_JS/callback/challenge.js",
+    "promise": "node code_JS/promise/index.js",
+    "promise:challenge": "node code_JS/promise/challenge.js"
+  },
+  "keywords": [
+    "async",
+    "callback",
+    "promise"
+  ],
+  "author": "j8d",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

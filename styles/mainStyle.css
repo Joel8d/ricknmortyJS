@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+}
+
+.header {
+  background-color: #393e46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.header .linkapi {
+  line-height: 0;
+}
+
+.header img {
+  height: 40px;
+  width: 40px;
+  padding-left: 5%;
+}
+
+.header ul {
+  padding: 0 10px 0 0;
+}
+
+.header li {
+  margin: 0 5px 0 2.5px;
+  display: inline;
+  color: white;
+}
+
+.header li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header li :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main {
+  background-color: #99f0df;
+  width: 100%;
+  min-height: 600px;
+  color: #393e46;
+  padding-bottom: 30px;
+}
+
+.main_banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  width: 100%;
+  height: 150px;
+  background-image: url("../resources/unnamed.png");
+  background-size: auto 150px;
+  background-repeat: no-repeat;
+  background-color: #262c3a;
+  background-position: right;
+}
+
+.main_section {
+  padding-top: 10px;
+}
+
+.main_section h2 {
+  margin-left: 10px;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 240px;
+  padding: 0 20px;
+}
+
+.contenedor_tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 330px;
+  height: auto;
+  background: white;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor_imagen {
+  border-right: 1px solid white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor_imagen a {
+  position: relative;
+  display: block;
+  line-height: 0;
+}
+
+.contenedor_imagen a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.contenedor_descripcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 20px;
+}
+
+.contenedor_descripcion h2 {
+  margin-left: 0;
+}
+
+.footer {
+  background-color: #73d4b4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 90px;
+}
+
+.footer img {
+  width: 18px;
+  height: 18px;
+  margin: 0px 10px 0px 10px;
+}
+
+.footer div {
+  margin-top: 10px;
+}
+
+.footer div a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+@media (max-width: 640px) {
+  .main_banner {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .contenedor_tarjeta {
+    margin: 20px 0px;
+  }
+}
+/*# sourceMappingURL=mainStyle.css.map */

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.contenedor_tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  height: auto;
+  background: green;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor_imagen {
+  border-right: 1px solid white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor_imagen a {
+  position: relative;
+  display: block;
+  line-height: 0;
+}
+
+.contenedor_imagen a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.contenedor_descripcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 20px;
+}
+/*# sourceMappingURL=tarjeta_style.css.map */
