@@ -4,7 +4,7 @@
 //Definimos la api
 let API = "https://rickandmortyapi.com/api/character/"
 
-const fetchData= (url_api, callback) => {
+const fetchData = (url_api, callback) => {
     const xhttp = new XMLHttpRequest();
     xhttp.open("GET", url_api, true);
     xhttp.onreadystatechange = () => {
