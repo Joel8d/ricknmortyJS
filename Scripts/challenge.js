@@ -4,22 +4,20 @@
 //Definimos la api
 let API = "https://rickandmortyapi.com/api/character/"
 
-function fetchData(url_api, callback){
-    let xhttp = new XMlHTTPRequest()
-    xhttp.open('GET', url_api, true)
-    xhttp.onreadystatechange = (event) => {
-        if ( xhttp.readyState === 4){
-            if(xhttp.status === 200){
-                callback(null, JSON.parse(xhttp.responseText))
-            }
-            else{
-                const error = new Error('Error' + url_api)
-                return callback(error, null)
-            }
+const fetchData= (url_api, callback) => {
+    const xhttp = new XMLHttpRequest();
+    xhttp.open("GET", url_api, true);
+    xhttp.onreadystatechange = () => {
+      if (xhttp.readyState === 4) {
+        if(xhttp.status === 200) {
+          callback(null, JSON.parse(xhttp.responseText));
+        } else {
+          callback(new Error("Error"), null);
         }
-    }
-xhttp.send()
-}
+      }
+    };
+    xhttp.send();
+  };
 
 //hacer petición a la API
 
