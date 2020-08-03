@@ -103,7 +103,7 @@ body {
 .contenedor_tarjeta{
     display: flex;
     width: 330px;
-    height: auto;
+    height: 120px;
     background: white;
     border-radius: 2px;
     margin: 10px;
@@ -113,6 +113,8 @@ body {
 .contenedor_imagen{
     border-right: 1px solid white;
     align-items: center;
+    width: 120px;
+    height: 120px;
 
     a{
         position: relative;
